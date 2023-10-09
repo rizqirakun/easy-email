@@ -118,6 +118,7 @@ export function Tools(props: ToolsProps) {
         style={{
           display: 'flex',
           alignItems: 'center',
+          flexWrap: 'wrap'
         }}
       >
         <BasicTools />
