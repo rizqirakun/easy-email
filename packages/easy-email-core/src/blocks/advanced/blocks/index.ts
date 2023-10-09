@@ -105,7 +105,7 @@ export const AdvancedHero = generateAdvancedLayoutBlock<IHero>({
   ],
 });
 
-export const AdvancedRAW = generateAdvancedContentBlock<IRaw>({
+export const AdvancedRaw = generateAdvancedContentBlock<IRaw>({
   type: AdvancedType.RAW,
   baseType: BasicType.RAW,
 });

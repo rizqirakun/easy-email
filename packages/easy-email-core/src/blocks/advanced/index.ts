@@ -22,6 +22,7 @@ import {
   AdvancedGroup,
   AdvancedColumn,
   AdvancedHero,
+  AdvancedRaw
 } from './blocks';
 
 export const advancedBlocks = {
@@ -40,6 +41,7 @@ export const advancedBlocks = {
   [AdvancedType.GROUP]: AdvancedGroup,
   [AdvancedType.COLUMN]: AdvancedColumn,
   [AdvancedType.HERO]: AdvancedHero,
+  [AdvancedType.RAW]: AdvancedRaw,
 };
 
 export { Operator, OperatorSymbol };
