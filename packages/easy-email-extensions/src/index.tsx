@@ -1,16 +1,23 @@
 import './index.scss';
 
-export * from './BlockLayer';
 export * from './AttributePanel';
-export * from './ShortcutToolbar';
-export * from './SourceCodePanel';
+export * from './BlockLayer';
+export * from './ConfigurationPanel';
+export * from './EditPanel';
 export * from './InteractivePrompt';
-export * from './SimpleLayout';
-export * from './StandardLayout';
 export * from './MergeTagBadgePrompt';
-export * from './components/Providers/ExtensionProvider';
+export * from './ShortcutToolbar';
+export * from './SimpleLayout';
+export * from './SourceCodePanel';
+export * from './StandardLayout';
+
 export * from './constants';
+
+export * from './components/AddToCollection';
 export * from './components/Form';
+export * from './components/FullHeightOverlayScrollbars';
+export * from './components/Providers/ExtensionProvider';
+export * from './components/RenderCount';
 export * from './components/ShadowDom';
 
 export { getContextMergeTags } from './utils/getContextMergeTags';

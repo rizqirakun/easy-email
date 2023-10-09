@@ -1,12 +1,12 @@
 {
-  "name": "easy-email-extensions",
+  "name": "@rizqirakun/easy-email-extensions",
   "license": "MIT",
-  "description": "Email editor",
-  "version": "4.14.1",
-  "author": "m-Ryan",
+  "description": "Email editor edited by rizqirakun",
+  "version": "4.14.2",
+  "author": "rizqirakun",
   "repository": {
     "type": "git",
-    "url": "git@github.com:m-Ryan/easy-email.git"
+    "url": "git@github.com/rizqirakun/easy-email.git"
   },
   "keywords": [
     "email editor core"
@@ -99,5 +99,11 @@
     "react-dom": "^18.2.0",
     "react-final-form": "^6.5.7"
   },
-  "gitHead": "bb5757eb3146f55c31d4354f1480939c3af8efe1"
+  "bugs": {
+    "url": "https://github.com/rizqirakun/easy-email/issues"
+  },
+  "homepage": "https://github.com/rizqirakun/easy-email#readme",
+  "directories": {
+    "lib": "lib"
+  }
 }
