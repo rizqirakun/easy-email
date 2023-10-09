@@ -13,6 +13,7 @@ import {
   IGroup,
   IColumn,
   IHero,
+  IRaw,
 } from '../../standard';
 import { AdvancedType, BasicType } from '@core/constants';
 import { generateAdvancedContentBlock } from '../generateAdvancedContentBlock';
@@ -102,4 +103,9 @@ export const AdvancedHero = generateAdvancedLayoutBlock<IHero>({
     AdvancedType.WRAPPER,
     BasicType.PAGE,
   ],
+});
+
+export const AdvancedRAW = generateAdvancedContentBlock<IRaw>({
+  type: AdvancedType.RAW,
+  baseType: BasicType.RAW,
 });

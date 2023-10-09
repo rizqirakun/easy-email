@@ -22,17 +22,19 @@ import { CollapseWrapper } from '../../attributes/CollapseWrapper';
 export function Text() {
   const [visible, setVisible] = useState(false);
 
+  // return (
+  //   <AttributesPanelWrapper
+  //     extra={(
+  //       <Tooltip content={t('Html mode')}>
+  //         <Button
+  //           onClick={() => setVisible(true)}
+  //           icon={<IconFont iconName='icon-html' />}
+  //         />
+  //       </Tooltip>
+  //     )}
+  //   >
   return (
-    <AttributesPanelWrapper
-      extra={(
-        <Tooltip content={t('Html mode')}>
-          <Button
-            onClick={() => setVisible(true)}
-            icon={<IconFont iconName='icon-html' />}
-          />
-        </Tooltip>
-      )}
-    >
+    <AttributesPanelWrapper>
       <CollapseWrapper defaultActiveKey={['0', '1', '2']}>
         <Collapse.Item
           name='0'

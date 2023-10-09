@@ -9,17 +9,25 @@ export function Raw() {
   const { focusIdx } = useFocusIdx();
   const [visible, setVisible] = useState(false);
   return (
-    <AttributesPanelWrapper
-      style={{ padding: 20 }}
-      extra={(
-        <Tooltip content={t('Html mode')}>
-          <Button
-            onClick={() => setVisible(true)}
-            icon={<IconFont iconName='icon-html' />}
-          />
-        </Tooltip>
-      )}
-    >
+    // <AttributesPanelWrapper
+    //   style={{ padding: 20 }}
+    //   extra={(
+    //     <Tooltip content={t('Html mode')}>
+    //       <Button
+    //         onClick={() => setVisible(true)}
+    //         icon={<IconFont iconName='icon-html' />}
+    //       />
+    //     </Tooltip>
+    //   )}
+    // >
+    <AttributesPanelWrapper>
+      <Tooltip content={t('Html mode')}>
+        <Button
+          onClick={() => setVisible(true)}
+          icon={<IconFont iconName='icon-html' />}
+        />
+      </Tooltip>
+
       <TextAreaField
         label=''
         name={`${focusIdx}.data.value.content`}

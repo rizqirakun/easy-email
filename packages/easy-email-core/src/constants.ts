@@ -44,6 +44,7 @@ export enum AdvancedType {
   COLUMN = 'advanced_column',
   GROUP = 'advanced_group',
   HERO = 'advanced_hero',
+  RAW = 'advanded_raw',
 }
 
 export const MERGE_TAG_CLASS_NAME = 'easy-email-merge-tag-container';
