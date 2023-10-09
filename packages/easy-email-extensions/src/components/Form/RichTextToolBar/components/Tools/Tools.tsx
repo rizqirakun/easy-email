@@ -112,7 +112,7 @@ export function Tools(props: ToolsProps) {
   return (
     <div
       id={RICH_TEXT_TOOL_BAR}
-      style={{ display: 'flex', flexWrap: 'nowrap' }}
+      style={{ display: 'flex', flexWrap: 'wrap' }}
     >
       <div
         style={{
