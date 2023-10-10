@@ -58,11 +58,11 @@ export function Image() {
               name={`${focusIdx}.attributes.container-background-color`}
               inline
             />
-            <SwitchField
+            {/* <SwitchField
               label={t('Full width on mobile')}
               name={`${focusIdx}.attributes.fluid-on-mobile`}
               config={fullWidthOnMobileAdapter}
-            />
+            /> */}
           </Stack>
         </Collapse.Item>
 
@@ -83,7 +83,7 @@ export function Image() {
               </Grid.Col>
             </Grid.Row>
 
-            <Padding showResetAll />
+            {/* <Padding showResetAll /> */}
             <Grid.Row>
               <Grid.Col span={24}>
                 <Align />
@@ -104,12 +104,12 @@ export function Image() {
           </Stack>
         </Collapse.Item>
 
-        <Collapse.Item
+        {/* <Collapse.Item
           name='3'
           header={t('Border')}
         >
           <Border />
-        </Collapse.Item>
+        </Collapse.Item> */}
 
         <Collapse.Item
           name='4'
@@ -132,12 +132,12 @@ export function Image() {
               />
             </Grid.Col>
           </Grid.Row>
-          <Grid.Col span={24}>
+          {/* <Grid.Col span={24}>
             <TextField
               label={t('class name')}
               name={`${focusIdx}.attributes.css-class`}
             />
-          </Grid.Col>
+          </Grid.Col> */}
         </Collapse.Item>
       </CollapseWrapper>
     </AttributesPanelWrapper>

@@ -64,6 +64,11 @@ export const AdvancedSocial = generateAdvancedContentBlock<ISocial>({
   baseType: BasicType.SOCIAL,
 });
 
+export const AdvancedRaw = generateAdvancedContentBlock<IRaw>({
+  type: AdvancedType.RAW,
+  baseType: BasicType.RAW,
+});
+
 //
 
 export const AdvancedWrapper = generateAdvancedLayoutBlock<IWrapper>({
@@ -103,9 +108,4 @@ export const AdvancedHero = generateAdvancedLayoutBlock<IHero>({
     AdvancedType.WRAPPER,
     BasicType.PAGE,
   ],
-});
-
-export const AdvancedRaw = generateAdvancedContentBlock<IRaw>({
-  type: AdvancedType.RAW,
-  baseType: BasicType.RAW,
 });

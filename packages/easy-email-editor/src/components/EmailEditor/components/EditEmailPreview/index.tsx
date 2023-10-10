@@ -55,10 +55,10 @@ export function EditEmailPreview() {
             height: '100%',
             overflowY: 'auto',
             zIndex: 10,
-            paddingLeft: 10,
-            paddingRight: 10,
+            paddingLeft: 16,
+            paddingRight: 16,
             paddingTop: 40,
-            paddingBottom: 40,
+            paddingBottom: 16,
             boxSizing: 'border-box',
           }}
           ref={setContainerRef}

@@ -709,6 +709,7 @@ function replaceStandardBlockToAdvancedBlock(blockData: IBlockData) {
     [BasicType.SECTION]: AdvancedType.SECTION,
     [BasicType.GROUP]: AdvancedType.GROUP,
     [BasicType.COLUMN]: AdvancedType.COLUMN,
+    [BasicType.RAW]: AdvancedType.RAW,
   };
 
   if (map[blockData.type]) {

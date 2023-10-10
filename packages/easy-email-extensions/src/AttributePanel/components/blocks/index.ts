@@ -58,4 +58,5 @@ export const blocks = {
   [AdvancedType.SECTION]: Section,
   [AdvancedType.GROUP]: Group,
   [AdvancedType.COLUMN]: Column,
+  [AdvancedType.RAW]: Raw,
 };

@@ -20,8 +20,8 @@ export function Raw() {
     //     </Tooltip>
     //   )}
     // >
-    <AttributesPanelWrapper>
-      <Tooltip content={t('Html mode')}>
+    <AttributesPanelWrapper style={{ padding: 20 }}>
+      <Tooltip content={t('Html mode')} style={{ marginBottom: 10 }}>
         <Button
           onClick={() => setVisible(true)}
           icon={<IconFont iconName='icon-html' />}

@@ -143,14 +143,14 @@ export function Accordion() {
             />
           </Space>
         </Collapse.Item>
-        <Collapse.Item
+        {/* <Collapse.Item
           name='4'
           header={t('Extra')}
         >
           <Grid.Col span={24}>
             <ClassName />
           </Grid.Col>
-        </Collapse.Item>
+        </Collapse.Item> */}
       </CollapseWrapper>
     </AttributesPanelWrapper>
   );

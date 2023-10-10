@@ -19,14 +19,14 @@ export function Divider() {
       <CollapseWrapper defaultActiveKey={['-1', '0', '1', '2', '3']}>
         <Collapse.Item name='1' header={t('Dimension')}>
           <Space direction='vertical'>
-            <Grid.Row>
+            {/* <Grid.Row>
               <Grid.Col span={11}>
                 <Width unitOptions='percent' />
               </Grid.Col>
               <Grid.Col offset={1} span={11} />
-            </Grid.Row>
+            </Grid.Row> */}
 
-            <Align />
+            {/* <Align /> */}
             <Padding />
           </Space>
         </Collapse.Item>
@@ -53,11 +53,11 @@ export function Divider() {
             <Grid.Col offset={1} span={11} />
           </Grid.Row>
         </Collapse.Item>
-        <Collapse.Item name='4' header={t('Extra')}>
+        {/* <Collapse.Item name='4' header={t('Extra')}>
           <Grid.Col span={24}>
             <ClassName />
           </Grid.Col>
-        </Collapse.Item>
+        </Collapse.Item> */}
       </CollapseWrapper>
     </AttributesPanelWrapper>
   );

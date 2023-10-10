@@ -36,7 +36,7 @@ export function Text() {
   return (
     <AttributesPanelWrapper>
       <CollapseWrapper defaultActiveKey={['0', '1', '2']}>
-        <Collapse.Item
+        {/* <Collapse.Item
           name='0'
           header={t('Dimension')}
         >
@@ -44,7 +44,7 @@ export function Text() {
             <Height />
             <Padding showResetAll />
           </Space>
-        </Collapse.Item>
+        </Collapse.Item> */}
         <Collapse.Item
           name='1'
           header={t('Color')}
@@ -78,7 +78,7 @@ export function Text() {
               </Grid.Col>
             </Grid.Row>
 
-            <Grid.Row>
+            {/* <Grid.Row>
               <Grid.Col span={11}>
                 <LineHeight />
               </Grid.Col>
@@ -112,22 +112,22 @@ export function Text() {
                 offset={1}
                 span={11}
               />
-            </Grid.Row>
+            </Grid.Row> */}
           </Space>
         </Collapse.Item>
-        <Collapse.Item
+        {/* <Collapse.Item
           name='4'
           header={t('Extra')}
         >
           <Grid.Col span={24}>
             <ClassName />
           </Grid.Col>
-        </Collapse.Item>
+        </Collapse.Item> */}
       </CollapseWrapper>
-      <HtmlEditor
+      {/* <HtmlEditor
         visible={visible}
         setVisible={setVisible}
-      />
+      /> */}
     </AttributesPanelWrapper>
   );
 }

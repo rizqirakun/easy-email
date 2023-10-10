@@ -127,11 +127,11 @@ export function Page({ hideSubTitle, hideSubject }: PageProps) {
                 />
               </Grid.Row>
 
-              <TextAreaField
+              {/* <TextAreaField
                 autoSize
                 label={t('User style')}
                 name={`${focusIdx}.data.value.user-style.content`}
-              />
+              /> */}
               <Stack.Item />
               <Stack.Item />
               <AddFont />

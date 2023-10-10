@@ -14,7 +14,7 @@ export function Spacer() {
         <Collapse.Item name='1' header={t('Dimension')}>
           <Space direction='vertical'>
             <Height />
-            <Padding />
+            {/* <Padding /> */}
           </Space>
         </Collapse.Item>
 
@@ -22,11 +22,11 @@ export function Spacer() {
           <ContainerBackgroundColor title={t('Background color')} />
         </Collapse.Item>
 
-        <Collapse.Item name='4' header={t('Extra')}>
+        {/* <Collapse.Item name='4' header={t('Extra')}>
           <Grid.Col span={24}>
             <ClassName />
           </Grid.Col>
-        </Collapse.Item>
+        </Collapse.Item> */}
       </CollapseWrapper>
     </AttributesPanelWrapper>
   );
