@@ -78,18 +78,6 @@ export function Text() {
               </Grid.Col>
             </Grid.Row>
 
-            {/* <Grid.Row>
-              <Grid.Col span={11}>
-                <LineHeight />
-              </Grid.Col>
-              <Grid.Col
-                offset={1}
-                span={11}
-              >
-                <LetterSpacing />
-              </Grid.Col>
-            </Grid.Row>
-
             <Grid.Row>
               <Grid.Col span={11}>
                 <TextDecoration />
@@ -103,6 +91,18 @@ export function Text() {
             </Grid.Row>
 
             <Align />
+
+            {/* <Grid.Row>
+              <Grid.Col span={11}>
+                <LineHeight />
+              </Grid.Col>
+              <Grid.Col
+                offset={1}
+                span={11}
+              >
+                <LetterSpacing />
+              </Grid.Col>
+            </Grid.Row>
 
             <FontStyle />
 
